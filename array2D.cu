@@ -2,6 +2,10 @@
 #include <math.h>
 #include <stdlib.h>
 
+//Author: Ketson R. M. dos Santos
+//Institution: Columbia University
+//e-mail: kmd2191@columbia.edu
+
 
 __device__ double * rk4(double bc0, double bc1, double bc2, double bc3, double *resp, int pi, int pf){
 
