@@ -3,6 +3,14 @@
 #include <stdlib.h>
 #include <time.h>
 
+
+//Author: Ketson R. M. dos Santos
+//Institution: Columbia University
+//e-mail: kmd2191@columbia.edu
+//
+//This is the C/C++ version of the program
+//to solve the WPI problem in stochastic dynamics (Single-degree-of-freedom)
+
 double * rk4(double xx, double yy, double *resp, int pi, int pf) {
 
 	double m = 1;
