@@ -2,6 +2,13 @@
 #include <math.h>
 #include <stdlib.h>
 
+//Author: Ketson R. M. dos Santos
+//Institution: Columbia University
+//e-mail: kmd2191@columbia.edu
+//
+//This is the GPU version of the program
+//to solve the WPI problem in stochastic dynamics (Single-degree-of-freedom)
+
 __device__ double * OdeFun(double t0, double y0, double y1, double y2, double y3){
 
         double m = 1;
