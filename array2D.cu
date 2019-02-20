@@ -5,6 +5,9 @@
 //Author: Ketson R. M. dos Santos
 //Institution: Columbia University
 //e-mail: kmd2191@columbia.edu
+//
+//This is the GPU version of the program
+//to solve the WPI problem in stochastic dynamics
 
 
 __device__ double * rk4(double bc0, double bc1, double bc2, double bc3, double *resp, int pi, int pf){
